@@ -2,7 +2,7 @@
   --ttt-primary: #1976D2;
   --ttt-accent: #FFC107;
   --ttt-secondary: #424242;
-  --ttt-bg: #fff;
+  --ttt-bg: #1565c0; /* Deep blue for background */
   --ttt-board-bg: #fff;
   --ttt-board-border: #424242;
   --ttt-x: #1976D2;
@@ -11,8 +11,9 @@
   --ttt-radius: 16px;
   --ttt-spacing: 1.5rem;
 }
-body {
-  background: var(--ttt-bg);
+/* Set global and html background to blue */
+html, body {
+  background: var(--ttt-bg) !important;
   min-height: 100vh;
 }
 .ttt-root {
